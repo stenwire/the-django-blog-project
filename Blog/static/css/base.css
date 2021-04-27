@@ -1,0 +1,39 @@
+/* header h1{
+    
+    text-align: center;
+} */
+
+header h1 a{
+    color : rgb(185, 38, 33);
+}
+
+body div{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-body{
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+/* for home.html */
+.post-entry-home :hover{
+    color : rgb(185, 38, 33);
+
+}
+
+/* FOR DETAIL.HTML */
+.post-entry h2{
+    margin-bottom: 0%;
+}
+
+.nav-left{
+    margin-right: auto;
+}
+
+.nav-right{
+    display: flex;
+    padding-top: 2rem;
+}

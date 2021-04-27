@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% for comment in  object_list %}
+        <div>
+            <p>{{comment|linebreaksbr}}</p>
+        </div>
+    {% endfor %}
+
+    <p> No comments yet <br/>
+
+     <a href= "{% url 'blog:comment_create' post.pk %}" >Add a Comment</a> </p>
+
+{% endblock %}
